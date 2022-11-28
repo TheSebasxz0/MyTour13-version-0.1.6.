@@ -1,0 +1,264 @@
+/* estilos para las lineas de apoyo del doucmento  */
+.v-line{
+    
+    border-left:  thick solid #fff;
+    height: 86.4%;
+    left: 30%;
+    position: absolute;
+   }
+/* estilos para las lineas de apoyo del doucmento  */
+.o{
+    position: relative;
+    top: 80%;
+    right: 35%;
+    border: 2px solid #fff;
+    width: 30%; 
+}
+
+
+/* estilos del input que permiten al  usuario ver una mejor interfaz */
+.mensaje{
+    font-family: cursive;
+    font-size:15px;
+    
+
+    position: absolute;
+    top: 93%;
+    left: 7%;
+    text-align: center;
+    outline: none;
+    background-color: rgba(43, 189, 189, 0.87);
+    border-radius: 29px;
+    border: none;
+
+    
+}
+/* estilos del input que permiten al  usuario ver una mejor interfaz */
+.mensaje2{
+    font-family: cursive;
+    font-size:15px;
+    
+
+    position: absolute;
+    top: 65%;
+    left: 43%;
+    text-align: center;
+    outline: none;
+    background-color: rgba(43, 189, 189, 0.87);
+    border-radius: 29px;
+    border: none;
+
+    
+}
+/* estilos del inconos que permiten al  usuario ver una mejor interfaz */
+.pos2{
+    position: absolute;
+    top: 63%;
+    left:64%;
+}  
+.pos3{
+    position: relative;
+    top: -33px;
+    left: 8px;
+}
+/* estos estilos permiten que los input y boton tengan  un mejor estilo ,adicional esconde el file y permite verlo mucho mejor  */
+.contenedor-btn_enviar input[type="file"]{
+    appearance: none;
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    
+}
+.contenedor-btn_enviar{
+    display: inline-block;
+    position: relative;
+    background-color: rgba(93, 206, 206, 0.87);
+    color: rgb(0, 0, 0);
+    border: 0;
+    padding: 2px 4px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgb(254, 85, 168);
+    overflow: hidden;
+    transition: ease-out 120ms;
+    margin-right: 1rem;
+    top: 88%;
+    left: 4%;
+}
+.contenedor-btn_enviar:hover{
+    background-color: rgb(29, 168, 168);
+}
+.contenedor-btn_enviar label{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+/* estilos para que al momento de pasar el cursor encima de el salte un mensaje  */
+.posicion_contenedor{
+    position: absolute;
+    top: 85.7% ;
+    left: 5%;
+
+    
+}
+.tooltip-box{
+    font-weight: bold;
+    color:black;
+    text-decoration: none;
+    position: relative;
+
+}
+.tooltip-info{
+    background: rgb(218, 247, 247);
+    color: black;
+    font-size: 18px;
+    padding: 0px 20px;
+    border-radius: 20px;
+    position:fixed;
+    visibility: hidden;
+    
+}
+.tooltip-box:hover .tooltip-info {
+    visibility: visible;
+}
+/* estilos titulos */
+ 
+.pos_titulo{
+    
+    
+    position: relative;
+    top: -480px;
+    left: 50%;
+    
+    
+}
+.pos_titulo1{
+    position: relative;
+    top: 28px;
+    left: 9%;
+    
+}
+/* estilos del inconos que permiten al  usuario ver una mejor interfaz */
+.file.icon{
+    color: black;
+}
+
+
+
+.v{
+    position: relative;
+    top: 85%;
+    border: 2px solid #fff;
+    width: 100%;
+}
+
+.posicion{
+    position: absolute;
+    left:46%;
+    top: 20%;
+    color: rgb(254, 85, 168);
+}
+.posicion1{
+    position: absolute;
+    left:33%;
+    top:66px;
+    border-radius: 90px;
+    border: 3px solid #fff;
+}
+.posicion1:hover{
+    box-shadow: 0 0 50px rgb(254, 85, 168);
+}
+
+.ui.container{
+    position: absolute;
+    top: 50% ;
+    left: 40%;
+    
+}
+
+.ui.very.basic.collapsing.celled.table{
+    position: relative;
+    text-align: center;
+    right: 11%;
+}
+.pos{
+    position: relative;
+    top: -50px;
+    left: -110px;
+}
+/* icono de problema en la tabla de descripciòn */
+.archive.icon{
+    position: relative;
+    left: 11px;
+    border:2px solid  rgb(66, 66, 66);
+    border-radius: 20px;
+    width: 25px;
+    height: 22px;
+    animation:  dur 2s infinite ;
+}
+.archive.icon:hover {
+    color: teal;
+    border: 3px solid rgb(136, 136, 136);
+
+}
+
+
+
+@keyframes dur{
+    from{
+        width: 6%;
+    }
+    to{
+        width: 3;
+    }
+}
+
+/* OTRO EFECTO DE TITULO , EFECTO MAQUINA DE ESCRIBIR */
+.contenedor2{
+    margin: auto;
+
+    position: absolute;
+    left: 10%;
+    top: -200px;
+
+}
+/* aca controlamos el color del h1 y la posicion con un float :left; */
+h1{
+    float: left;
+    color: rgb(254, 85, 168);
+    position: relative;
+}
+/* estilos para controlar la posicion y animacion donde la demos el nombre (maquina) los segundos y si va ahcer infinita */
+h1 span{
+    position: absolute;
+    right: 0;
+    width: 0;
+    background: #fff;
+
+    animation: maquina 2s ;
+}
+/* @keyframes permite que el texto permita hacer el efecto maquina de escribir*/
+@keyframes maquina {
+    from{
+        width: 100%;
+    }
+    to{
+        width: 0;
+    }
+}
+.lock.icon{
+    color: rgb(160, 160, 160);
+    
+}
+
+/* posicion de la tabla de reportes */
+.tabla_pos{
+    position: relative;
+    top:-60px;
+    right: 35%;
+}
+

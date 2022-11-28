@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<HTML lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial_scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mende+Kikakui&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/semantic.min.css">
+ 	<title>MENU</title> 
+</head>
+<body style="background-color: rgba(4, 196, 196, 0.87); cursor: grab;">
+  <style>
+    nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 23px;
+    padding-left: -8%;
+    }
+    .tit{
+    color: #000;
+    font-size: 25px;
+    position: relative;
+    left: 400px;
+    top: 10px;
+    }
+    ul li{
+    display: inline-block;
+    padding: 0% 20px;
+    }
+    a{
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+      font-size: 16px;
+    }
+    a:hover{
+      color: rgb(255, 255, 255);
+      transition: all .3s;
+    }
+    a:focus{
+      color: #fff;
+    }
+  </style>
+  <header>
+    <nav class="nave">
+      <h1 class="tit" id="estiloh1"> My tour 13</h1>
+      <ul>
+        <li><a href="index_guia.html" target="iframe_menu">Mi perfil</a></li>
+        <li><a href="listacontratos.html" target="iframe_menu">Lista contratos</a></li>
+        <li><a href="chat.html" target="iframe_menu">Chat</a></li>
+        <li><a onclick="cerrar()">Cerrar sesion</a></li>
+      </ul>
+    </nav>
+    <hr class="Linea_menu">
+  </header>
+  <iframe name="iframe_menu" src="index_guia.html" frameborder="0" width="100%" height="85%" border:none;></iframe>
+  <script src="js/alerta.js"></script>
+
+</body> 
+</html> 

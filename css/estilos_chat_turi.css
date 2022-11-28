@@ -1,0 +1,218 @@
+.imagennn{
+    width: 330px;
+    height: 340px;
+    margin-top: 2.7cm;
+    margin-left: 2cm;
+    margin-right: 1cm;
+}
+
+.cajaa{
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid rgba(4, 196, 196, 0.87);
+    font-size:17px; 
+    text-align: center;
+    border-radius: 10px;  
+}
+
+.caja1{
+    position: absolute;
+    top: 105px;;
+    bottom: 0;
+    left: 399px;
+    right:100px;
+    width: 790px;
+    height: 10px;
+}
+
+.caja3{
+    position: absolute;
+    top: 300px;;
+    bottom: 0;
+    left: 399px;
+    right:100px;
+    width: 794px;
+    height: 10px;
+}
+
+
+
+.img1{
+    width: 70px;
+    height: 55px;
+    position: relative;
+    left: 60px;
+}
+
+.border_img{
+    border-radius: 60px;
+}
+.border_img:hover{
+    box-shadow: 0 0 12px rgb(254, 85, 168);
+}
+.let{
+    font-size: 16px;
+}
+.lk{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    position: relative;
+    left: 50px;
+}
+/**
+ * Las estrellas
+ */
+.star_rating{
+    background-color: rgba(121, 180, 239, 0.733);
+    padding: 1.4rem 2.5rem;
+    margin: 2rem;
+    border-radius: 4rem;
+    border-top: 2px solid #5ba2c0;
+    border-left: 2px solid #5ba2c0;
+    background: #bac6d0;
+    margin: auto;
+    margin-top: 17px;
+    box-shadow: 7px 13px 37px  rgba(92, 92, 240, 0.733);
+    width: 330px;
+    height: 170px;
+    position: absolute;
+    top: 365px;
+    bottom: 0;
+    left: 90px;
+    right:100px;
+    text-align: center;
+}
+.star{
+    font-size: 3rem;
+    color: #0560f4;
+    background-color: unset;
+    border: none;
+}
+.imagennl{
+    height:30px;
+    width: 100%;
+}
+.titulo{
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+
+.Linea_menu{
+    position: relative;
+    top: 9px;
+    border: 1px solid rgb(22, 65, 75);;
+}
+
+
+label{
+    text-align: center;
+    font-family: cursive;
+}
+.tabla_margen{
+    position: relative;
+    top: 80px;
+}
+/* OTRO EFECTO DE TITULO , EFECTO MAQUINA DE ESCRIBIR */
+.contenedor2{
+    position: relative;
+    top: 10%;
+    left: 38%;
+}
+.pos_ti{
+    position: relative;
+    top: 30px;
+    left: 40%;
+}
+/* aca controlamos el color del h1 y la posicion con un float :left; */
+h1{
+    float: left;
+    color: rgba(4, 196, 196, 0.87);
+    position: relative;
+}
+/* estilos para controlar la posicion y animacion donde la demos el nombre (maquina) los segundos y si va ahcer infinita */
+h1 span{
+    position: absolute;
+    right: 0;
+    width: 0;
+    background: #fff;
+    
+
+    animation: maquina 2s ;
+}
+/* @keyframes permite que el texto permita hacer el efecto maquina de escribir*/
+@keyframes maquina {
+    from{
+        width: 100%;
+    }
+    to{
+        width: 0;
+    }
+}
+
+.plane.icon{
+    color: #464646;
+    
+}
+
+.table_posi{
+    position: relative;
+    top:200px;
+}
+
+/* color del icon llamado money bill alternate outline icon */
+
+.money.bill.alternate.outline.icon{
+    color: green;
+}
+/* estilos del menu letra */
+
+.tit{
+    
+    font-family: 'Rubik Bubbles', cursive;
+    
+    
+}
+#estiloh1{
+    color: #fff; 
+    font-size: 45px; 
+    position: relative;
+    left: 15%;
+}
+
+/* estilos video */
+video{
+    position: relative;
+    top: 130px;
+    left: 0;
+
+    width: 700px;
+    border-radius: 19px;
+}
+
+.pos_h4{
+    color: rgb(194, 78, 97);
+    
+}
+.estilo_autor{
+    color: rgba(4, 196, 196, 0.87);
+    
+}
+.arrow.alternate.circle.right.outline.icon{
+    color: rgb(61, 61, 61);
+    position: relative;
+    left: 10px;
+}
+.img_posicion{
+    position: relative;
+    top: 20px;
+    right: 80%;
+
+    border-radius: 29px;
+    cursor: pointer;
+}
+.img_posicion:hover{
+    box-shadow: 0 0 0px rgb(254, 85, 168);
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<HTML lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial_scale=1.0">
+    <link rel="stylesheet" href="css/estilos_chat_turi.css">
+    <link rel="stylesheet" href="css/semantic.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mende+Kikakui&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/semantic.js"></script>
+ 	<title>MENU</title> 
+</head>
+<body style="background-color :rgba(4, 196, 196, 0.87); cursor: grab;">
+  <style>
+    nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 23px;
+      padding-left: -8%;
+      }
+     
+      ul li{
+      display: inline-block;
+      padding: 0% 20px;
+      }
+      a{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-size: 16px;
+        
+      }
+      a:hover{
+        color: #fff;
+      }
+
+      @media(min-width: 700px){
+        nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 23px;
+      padding-left: -8%;
+      }
+      
+      ul li{
+      display: inline-block;
+      padding: 0% 20px;
+      }
+      a{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-size: 16px;
+    
+
+         
+      }
+      a:hover{
+        color:  #fff;
+        transition: all .3s;
+      }
+      a:focus{
+        color:#fff;
+      }
+      
+      }
+  </style>
+  <header>
+    <nav class="nave">
+      <h1 class="tit" id="estiloh1">My tour 13</h1>
+      <ul>
+        <li><a href="infra_turista.html" target="iframe_menuu">Inicio</a></li>
+        <li><a href="perfil_turista.html" target="iframe_menuu">Mi perfil</a></li>
+        <li><a  href="guiadispo.html" target="iframe_menuu">Guías disponibles</a></li>
+        <li><a href="chat.html" target="iframe_menuu">Chat</a></li>
+        <li><a onclick="cerrar()">Cerrar sesion</a></li>
+      </ul>
+    </nav>
+    <hr class="Linea_menu">
+  </header>
+  <iframe name="iframe_menuu" src="infra_turista.html" frameborder="0" width="100%" height="85%" border:none;></iframe>
+  <script src="js/alerta.js"></script>
+
+</body> 
+</html> 

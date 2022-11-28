@@ -1,0 +1,179 @@
+.contenido{
+    width: 15%;
+    height: 100%;
+    background-color: white;
+    border-style:solid;
+    border-color: black;    
+    border-width: 0px 2px 0px 0px ;
+    animation-name: borde_color; /* Nombre de la animacion */
+    animation-duration: 5s; ; /* Duracion de la animacion */
+}
+#carouselExampleSlidesOnly{
+    z-index: -1;
+    position: relative;
+    bottom: 695px;
+}
+.input_nombre{
+    border: 1px solid grey;
+    border-radius: 5px;
+    position: relative;
+    left: 35%;
+    bottom: 30px;
+}
+/* estilos inicios sesiòn contraseña */
+.input_contraseña{
+    border:1px solid grey;
+    border-radius: 5px;
+    position: relative;
+    left: 35%;
+    bottom: 25px;
+}
+
+.input_nombre:hover{
+    border: 2px solid rgba(43, 189, 189, 0.87);
+    box-shadow: 0 15px 17px rgba(43, 189, 189, 0.87);
+}
+.input_contraseña:hover{
+    border: 2px solid rgba(43, 189, 189, 0.87);
+    box-shadow: 0 15px 17px rgba(43, 189, 189, 0.87);
+}
+
+
+/* estilos del boton de manual de uso */
+.pdf{
+    text-align: center;
+    
+}
+
+
+
+.buttonDownload {
+    display: inline-block;
+    position: relative;
+    padding: 10px 25px;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 0.9em;
+    text-align: center;
+    text-indent: 15px;
+    font-family: cursive;
+    border:1px solid #50e3f6;
+    border-radius: 19px;
+   }
+   
+   .buttonDownload:hover {
+    background-color: #50e3f6;
+    color: rgb(0, 0, 0);
+   }
+   
+   .buttonDownload:before, .buttonDownload:after {
+    content: '  ';
+    display: block;
+    position: absolute;
+    left: 15px;
+    top: 52%;
+   }
+   
+   .buttonDownload:before {
+    width: 15px;
+    height: 4px;
+    border-style: solid;
+    border-width: 0 2px 2px;
+   }
+   
+   .buttonDownload:after {
+    width: 0;
+    height: 0;
+    margin-left: 3px;
+    margin-top: -7px;
+    border-style: solid;
+    border-width: 6px 4px 0 4px;
+    border-color: transparent;
+    border-top-color: inherit;
+    animation: downloadArrow 1s linear infinite;
+    animation-play-state: paused;
+   }
+   
+   .buttonDownload:hover:before {
+    border-color: #000000;
+   }
+   
+   .buttonDownload:hover:after {
+    border-top-color: #000000;
+    animation-play-state: running;
+   }
+   
+   @keyframes downloadArrow {
+    0% {
+     margin-top: -7px;
+     opacity: 1;
+    }
+   
+    0.001% {
+     margin-top: -15px;
+     opacity: 0.4;
+    }
+   
+    50% {
+     opacity: 1;
+    }
+   
+    100% {
+     margin-top: 0;
+     opacity: 0.4;
+    }
+   }
+
+   .ui.inverted.teal.button{
+    position: relative;
+    left:32%;
+    width: 200px;
+   }
+   .ui.inverted.pink.button{
+    position: relative;
+    left:28%;
+    width: 200px;
+   }
+   /* posicion de os input en crear cuenta */
+
+.field{
+    text-align: center;
+    
+}
+
+/* estilos modulo de crear cuenta -de administrador */
+
+.modulo_crear{
+    color: teal;
+    font-family: cursive ;
+    cursor: grab;
+    border-radius: 30px;
+
+}
+.modulo_crear:hover{
+    color: #000;
+    border:none;
+    background: rgba(150, 252, 247, 0.445);
+    border-radius: 30px;
+    
+}
+.modulo_crear_2{
+    color: pink ;
+    font-family: cursive ;
+    cursor: grab;
+    border-radius: 30px;
+}
+.modulo_crear_2:hover{
+    color: #000;
+    border:none;
+    background: rgb(240, 161, 174);
+    border-radius: 30px;
+}
+
+/* estilos icono pdf */
+.file.pdf.outline.icon{
+    position: absolute;
+    right: 9%;
+}

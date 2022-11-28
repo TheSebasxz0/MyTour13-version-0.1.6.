@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo</title>
+    <link rel="stylesheet" href="css/semantic.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos_index.css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/semantic.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+    <!-- MENU -->
+    <div class="contenido">
+        <div class="ui secondary vertical menu">
+          <img src="img/logo pagina .gif" width="96%" height="50%">
+            <a class="item" data-bs-toggle="modal" data-bs-target="#terminos_de_uso">
+                Terminos de uso
+            </a>
+            <a class="item" data-bs-toggle="modal" data-bs-target="#acerca_de">
+                Acerca de
+            </a>
+            <a class="item" data-bs-toggle="modal" data-bs-target="#manual">
+                Manula de uso
+            </a>
+            <a class="item" data-bs-toggle="modal" data-bs-target="#inicio_sesion">
+              Iniciar sesion
+            </a>
+            <a class="item" data-bs-toggle="modal" data-bs-target="#crear_cuenta">
+              Crear cuenta
+            </a>
+        </div>
+    </div>
+    <!-- Carrusel -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/carrusel/c_4.jpg" class="d-block w-100" height="695px">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carrusel/c_6.jpg" class="d-block w-100" height="695px">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carrusel/c_3.jpg" class="d-block w-100" height="695px">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carrusel/c_7.jpg" class="d-block w-100" height="695px">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carrusel/c_8.jpg" class="d-block w-100" height="695px">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carrusel/c_9.jpg" class="d-block w-100" height="695px">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carrusel/c_10.jpg" class="d-block w-100" height="695px">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carrusel/c_11.jpg" class="d-block w-100" height="695px">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carrusel/c_12.jpg" class="d-block w-100" height="695px">
+          </div>
+        </div>
+    </div>
+    <!-- MODALS -->
+    <!-- MODAL TERMINOS DE USO -->
+    <div class="modal fade" id="terminos_de_uso" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel" style="color:rgb(254, 85, 168);position: relative; left: 35%;">Terminos de uso</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <p>
+                Esta plataforma esta creada con el fin de mejorar la experiencia de las <br>
+                personas que visitan y trabajan en la comuna 13; por esto mismo invitamos
+                a los usuarios leer lo que implica el usar nustra plataforma
+                <br>
+                <br>
+                1. Para tranquilidad de nuestros usuarios, queremos que sepan que los datos
+                suministrados en MyTour 13 no seran usados para ningun fin ajeno a las actividades
+                que se realizan dentro de la plataforma, por lo que no seran expuestos a ninguna entidad
+                por fuera de MyTour 13 y la ley, si esta asi lo requiere
+                <br>
+                2. En caso de que alguna entidad legal asi lo requiera, todos los datos y registros de chat
+                de cualquier usuario seran entregados a estos
+                <br>
+                <br>
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL ACERCA DE -->
+    <div class="modal fade" id="acerca_de" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel" style="color: rgb(254, 85, 168); position: relative; left: 40%;">Sobre nosotros</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div style="text-align:center;">
+                <img src="img/logo pagina .gif" width="30%" height="30%">
+                <img src="img/logo sena.png" width="17%" height="17%">
+              </div>
+              <p style="text-align:end ;">
+                Proyecto formativo del <b style="color: rgb(3, 151, 3);">SENA</b>  <br>
+                Todos los derechos reservados al <b style="color: rgb(3, 151, 3);">SENA</b> <br>
+                <ul>
+                  <b style="color:rgb(204, 113, 128);">Creadores:</b>
+                  <li> Jhon Sebastian Lopez </li>
+                  <li> Sebastian Patiño </li>
+                  <li> Santiago Vargas </li>
+                </ul>
+                <hr>
+                MyTour 13 es una plataforma creada para mejorar la comunicacion entre los
+                turistas y guias de la comuna 13 de Medellin, con el fin de generar mas turismo
+                en la zona y mayor oportunidad de trabajo independiente
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL MANUAL DE USO -->
+    <div class="modal fade" id="manual" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel" style="color: rgb(254, 85, 168); position: relative; left: 33%;">Como usar MyTour 13</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              La funcionalidad de MyTour 13 esta enfocada en un chat donde te podras comunicar
+              para planear tu experiencia en la comuna 13
+              <br>
+              <br>
+              como Turista, podras encontrar una una gran cantidad de guias disponibles y dispuestos
+              para ti, con los cuales podras hablar antes de tu recorrido y asi planificar cada detalle
+              de este, podras especificar la fecha de inicio y fin de tu experiencia en la comuna 13
+              <br>
+              <br>
+              Como guia, podras trabajar de manera independiente en la comuna 13, cuando un turista te contacte
+              tendras disponible un chat donde te diran cada detalle de su recorrido, podran ajustar un precio para este
+              entre ambos y al finalizar cada recorrido, el turista podra calificar tu servicio
+              <br>
+              <br>
+              
+              <div class="pdf">
+                <a download="Manual de uso" href="pdf/manual-de-uso.pdf">
+                  <button class="buttonDownload">Descarga Pdf <i class="file red pdf outline icon"></i> </button>
+               </a>
+              </div>
+
+            </div>
+          </div>
+          <div class="modal-footer">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL DE INICIO DE SESION -->
+    <div class="modal fade" id="inicio_sesion" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="staticBackdropLabel" style="color:rgb(254, 85, 168); position: relative; left: 37%;">Bienvenido</h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <form action="php/inicio_sesion.php" method="post">
+            <div class="modal-body">
+              <div class="container">
+                <img src="img/logo pagina .gif" width="30%" style="position: relative; left: 170px;">
+                <br>
+                <br>
+                <br>
+                <input  type="text" placeholder="Correo" class="input_nombre" name="gmail" style="text-align:center ;">
+                <br>
+                <input type="password" placeholder="Contraseña" class="input_contraseña" name="contraseña" style="text-align:center ;">
+                <br>
+                <button type="submit" onClick="alert('¡Buen dia señor@, bienvenido de nuevo en nuestra app Mytour 13!')" class="ui inverted teal button"><b style="color: black;">Iniciar Sesiòn</b></button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL DE CREAR CUENTA -->
+    <div class="modal fade" id="crear_cuenta" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="staticBackdropLabel" style="color: rgb(254, 85, 168); position: relative; left: 35%;">Crear cuenta</h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <form action="php/formularios.php" method="post">
+            <div class="modal-body">
+              <div class="ui container">
+                <form class="ui form">
+                  <div class="field"><br>
+                    <div class="ui left icon input">
+                      <input type="text" placeholder="Nombre" name="nombre" style="text-align: center;">
+                      <i class="user icon"></i>
+                    </div>
+                  </div>
+                  <div class="three fields">
+                    <div class="field"><br>
+                      <div class="ui left icon input">
+                        <input type="text" placeholder="Correo electronico" name="gmail"  style="text-align: center;"> 
+                        <i class="user icon"></i>
+                      </div><br><br>
+                      <div class="ui left icon input">
+                        <input type="password" placeholder="Contraseña" name="contraseña"style="text-align: center;">
+                        <i class="user icon"></i>
+                      </div>
+                    </div>
+                    <div class="field"><br>
+                      <div class="ui left icon input">
+                        <input type="password" placeholder="Repite tu contraseña" name="contraseña2" style="text-align: center;"> 
+                        <i class="user icon"></i>
+                      </div>
+                    </div>
+                  </div><br>
+                  <div class="field">
+                    <div class="ui left icon input">
+                      <input type="text" placeholder=" Numero identificacion" name="numero_identificacion" style="text-align: center;">
+                      <i class="address card icon"></i>
+                    </div>
+                  </div><br>
+                  <div class="tow fields">
+                    <div class="field">
+                      <div class="ui floating dropdown labeled search icon button">
+                        <i class="world icon"></i>
+                        <span class="text">Selecione Su Pais  <i class="angle teal double right icon"></i></span>
+                        <div class="menu">
+                          <div class="item"><i class="ar flag"></i> Argentina</div>
+                          <div class="item"><i class="france flag"></i> Francia</div>
+                          <div class="item"><i  class="ca flag"></i>Canada</div>
+                          <div class="item"><i class="cn flag"></i>China</div>
+                          <div class="item"><i class="co flag"></i>Colombia</div>
+                          <div class="item"><i class="py flag"></i>Paraguay</div>
+                          <div class="item"><i class="pl flag"></i>Polonia</div>
+                          <div class="item"><i class="pt flag"></i>Portugal</div>
+                          <div class="item"><i class="pr flag"></i>Puerto Rico</div>
+                          <div class="item"><i class="pe flag"></i>Peru</div>
+                          <div class="item"><i class="ph flag"></i>Philippines</div>
+                          <div class="item"><i class="pa flag"></i>Panama</div>
+                          <div class="item"><i class="nz flag"></i>New Zealand	</div>
+                          <div class="item"><i class="ni flag"></i>Nicaragua</div>
+                          <div class="item"><i class="lr flag"></i>Liberia</div>
+                          <div class="item"><i class="it flag"></i>Italy</div>
+                          <div class="item"><i class="ru flag"></i>Russian</div>
+                          <div class="item"><i class="jp flag"></i>Japan</div>
+                          <div class="item"><i class="kr flag"></i>South Korea</div>
+                          <div class="item"><i class="kn flag"></i>North Korea</div>
+                          <div class="item"><i class="in flag"></i>India</div>
+                          <div class="item"><i class="is flag"></i>Iceland</div>
+                          <div class="item"><i class="jo flag"></i>Jordan</div>
+                          <div class="item"><i class="jm flag"></i>Jamaica</div>
+                          <div class="item"><i class="ke flag"></i>Kenja</div>
+                      
+                        </div>
+                      </div>
+                    </div>
+                  </div><br>
+                  <div class="fields">
+                    <div class="field">
+                      <div class="field">
+                        <div class="ui floating dropdown labeled search icon button">
+                          <i class="user icon"></i>
+                          <span class="text">Crear Cuanta Como <b style="color: red ;font-size:20px;">*</b></span>
+                          <div class="menu">
+                            <div class="item"><i class="user teal icon"></i> Guia</div>
+                            <div class="item"><i class="user pink icon"></i> Turista</div>
+                            <a class="item" data-bs-toggle="modal" data-bs-target="#admin_contra" style="text-decoration: none; " >
+                              <div class="item" ><i  class="user red icon"></i>   Adminstrador</div>
+                            </a>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <br>
+                    <button type="submit" onClick="alert('¡Buen dia señor@, bienvenido de uno en nuestra app Mytour 13!')" class="ui inverted pink button"><b style="color: black;">Crear cuenta</b></button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="admin_contra" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="staticBackdropLabel" style="color:rgb(254, 85, 168); position: relative; left: 10%;">Bienvenidos al modulo de admin <i class="wechat black icon"></i> </h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <form>
+            <div class="modal-body">
+              <div class="container">
+                <img src="img/logo pagina .gif" width="30%" style="position: relative; left: 170px;">
+                <br>
+                <br>
+                <input type="password" placeholder="Contraseña" class="input_contraseña" name="contraseña" style="text-align:center ;">
+                <br>
+                <button type="submit" onClick="alert('¡Buen dia señor@, bienvenido de nuevo en nuestra app Mytour 13!')" class="ui inverted teal button"><b style="color: black;">Iniciar Sesiòn</b></button>
+                <hr>
+                <p style="text-align: center;" >Unicamente puede acceder persona autorizado "crea tu cuenta como <a class="item" data-bs-toggle="modal" data-bs-target="#crear_cuenta"style="text-decoration: none;" > <b class="modulo_crear">Guia</b> <i class="user grey icon"></i> <b class="modulo_crear_2" >Turista </b> </a> <br> En el caso de no tener cuenta como Adminstrador.
+                </p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script>
+        $('.ui.dropdown').dropdown();
+    </script>
+    <script>
+          $('.ui.dropdown').dropdown();
+          const myModal = document.getElementById('myModal')
+          const myInput = document.getElementById('myInput')
+          myModal.addEventListener('shown.bs.modal', () => {
+          myInput.focus()
+          })
+    </script>
+    <script src="js/alertaAdmin.js"></script>
+</body>
+</html>

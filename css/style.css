@@ -1,0 +1,758 @@
+.imagennn{
+    width: 330px;
+    height: 340px;
+    margin-top: 1cm;
+    margin-left: 2cm;
+    margin-right: 1cm;
+}
+
+.cajaa{
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid rgba(4, 196, 196, 0.87);
+    font-size:15px; 
+    text-align: center;
+    border-radius: 10px;
+}
+.caja1{
+    position: absolute;
+    top: 105px;;
+    bottom: 0;
+    left: 399px;
+    right:100px;
+    width: 900px;
+    height: 10px;
+}
+.caja2{
+    position: absolute;
+    top: 213px;;
+    bottom: 0;
+    left: 400px;
+    right:100px;
+    width: 900px;
+}
+
+.img1{
+    width: 70px;
+    height: 55px;
+    position: relative;
+    left: 60px;
+}
+.let{
+    font-size: 16px;
+}
+.lk{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    position: relative;
+    left: 50px;
+}
+/**
+ * Las estrellas
+ */
+.star_rating{
+    background-color: rgba(121, 180, 239, 0.733);
+    padding: 1.4rem 2.5rem;
+    margin: 2rem;
+    border-radius: 4rem;
+    border-top: 2px solid #5ba2c0;
+    border-left: 2px solid #5ba2c0;
+    background: #bac6d0;
+    margin: auto;
+    margin-top: 17px;
+    box-shadow: 7px 13px 37px  rgba(92, 92, 240, 0.733);
+    width: 330px;
+    height: 170px;
+    position: absolute;
+    top: 365px;
+    bottom: 0;
+    left: 90px;
+    right:100px;
+    text-align: center;
+}
+.star{
+    font-size: 3rem;
+    color: #0560f4;
+    background-color: unset;
+    border: none;
+}
+.imagennl{
+    height:30px;
+    width: 100%;
+}
+.titulo{
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.margen_tabla{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 220px;
+    margin-bottom: 20px;
+}
+/**
+ de aqui para abajo css de patiño
+ */
+.a{
+    background-color: rgb(166, 233, 229);
+}
+
+.cabecera{
+    text-align: center;
+    border: 1px solid black;
+    background-color: turquoise ;
+    height: 100px;
+}
+
+a{
+    font-family: cursive;
+
+}
+h1{
+    text-align: center;
+}
+
+.posisonxd{
+    position: relative;
+    top: -70%;
+    left: 30%;
+    
+}
+.pie{
+    position: relative;
+    margin-top: -30%;
+    text-align: left;
+    border: 1px solid black;
+    background-color: turquoise ;
+    height: 100px;
+}  
+.decorar{
+    font-size: 15px;
+    color: black;
+    font-family: cursive;
+
+}
+.color{
+    color: blueviolet;
+    font-family: cursive;
+}
+
+.v-line{
+    border-left:  thick solid #000;
+    height: 86.4%;
+    left: 30%;
+    position: absolute;
+   }
+.o{
+    position: relative;
+    top: 80%;
+    right: 35%;
+    border: 2px solid black;
+    width: 30%; 
+}
+.mensaje{
+    position: absolute;
+    top: 91%;
+    left: 10%;
+    
+}
+.v{
+    position: relative;
+    top: 85%;
+    border: 2px solid black;
+    width: 100%;
+}
+
+.active.item{
+    position: absolute;
+    left: 60%;
+}
+/**La clase posicion es de el chat, (titulo "mis contactos")*/
+.posicion{
+    position: absolute;
+    left:30%;
+    top: 10%;
+    font-size: 25px;
+}
+.posicion1{
+    position: absolute;
+    left:40%;
+    width: 140px;
+    height: 120px;
+}
+.ui.container{
+    position: absolute;
+    top: 30% ;
+    left: 33%;
+    height: 100px;
+    
+} 
+/**
+Las 3 clases que estan abajo son del reporte.html
+ */
+.tmñ_img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 200px;
+    top: 50px;
+}
+.tamalet{
+    width: 900px;
+    height: 200px;
+}
+.tmñ_letr{
+    position: relative;
+    left: 300px;
+    top: 0px;
+    font-size: 30px;
+}
+.cajaaa{
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid #000000;
+    font-size:15px; 
+    text-align: center;   
+}
+.caja11{
+    position: absolute;
+    top: 200px;;
+    bottom: 0;
+    left: 310px;
+    right:100px;
+    width: 100px;
+    height: 10px;
+}
+.caja22{
+    position: absolute;
+    top: 200px;;
+    bottom: 0;
+    left: 700px;
+    right:100px;
+    width: 100px;
+    height: 30px;
+}
+.caja33{
+    position: absolute;
+    top: 170px;;
+    bottom: 0;
+    left: 700px;
+}
+.caja44{
+    position: absolute;
+    top: 300px;;
+    bottom: 0;
+    left: 700px;
+    right:100px;
+    width: 10px;
+    height: 30px;
+}
+.caja55{
+    position: absolute;
+    top: 170px;;
+    bottom: 0;
+}
+.margeenn1{
+    margin-top: 14%;
+    margin-left: 17%;
+    width: 600px;
+    height: 120px;
+}
+.margeenn2{
+    margin-top: 0px;
+    margin-left: 17%;
+    width: 600px;
+    height: 120px;
+}
+.margeenn3{
+    margin-top: 0px;
+    margin-left: 17%;
+    width: 600px;
+    height: 120px;
+}
+.iframee9{
+   position: absolute;
+   top: 5px;
+   margin-left: 420px;
+   height: 500px;
+   width: 950px;
+}
+/**
+Estas dos clases son de las paginas contactos 1, 2, 3
+*/
+.boton_contacto{
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+.titulo_contacto{
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+/***/
+
+
+.cajaa{
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid rgba(4, 196, 196, 0.87);
+    font-size:15px; 
+    text-align: center;   
+}
+.caja1{
+    position: absolute;
+    top: 105px;;
+    bottom: 0;
+    left: 399px;
+    right:100px;
+    width: 900px;
+    height: 10px;
+}
+.caja2{
+    position: absolute;
+    top: 213px;;
+    bottom: 0;
+    left: 400px;
+    right:100px;
+    width: 900px;
+}
+
+.img1{
+    width: 70px;
+    height: 55px;
+    position: relative;
+    left: 60px;
+}
+.let{
+    font-size: 16px;
+}
+.lk{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    position: relative;
+    left: 50px;
+}
+/**
+ * Las estrellas del perfil de guia (no da la puntuacion)
+ */
+ .star_ratingg{
+    background-color: rgba(4, 196, 196, 0.87);
+    padding: 1.4rem 2.5rem;
+    margin: 2rem;
+    border-radius: 4rem;
+    border-top: 2px solid rgb(196, 131, 141);
+    border-left: 2px solid rgb(196, 131, 141);
+    background: rgb(221, 206, 208);
+    margin: auto;
+    margin-top: 17px;
+    box-shadow: 7px 13px 37px  rgb(194, 78, 97);
+    width: 330px;
+    height: 170px;
+    position: absolute;
+    top: 365px;
+    bottom: 0;
+    left: 90px;
+    right:100px;
+    text-align: center;
+}
+.starr{
+    font-size: 3rem;
+    color: rgba(4, 196, 196, 0.87);
+    background-color: unset;
+    border: none;
+}
+/**
+ * Las estrellas para darle la puntuacion al turista (si da la puntuacion)
+ */
+ .star_rating{
+    background-color: rgba(4, 196, 196, 0.87);
+    padding: 1.4rem 2.5rem;
+    margin: 2rem;
+    border-radius: 4rem;
+    border-top: 2px solid rgb(196, 131, 141);
+    border-left: 2px solid rgb(196, 131, 141);
+    background: rgb(221, 206, 208);
+    margin: auto;
+    margin-top: 17px;
+    box-shadow: 7px 13px 37px  rgb(194, 78, 97);
+    width: 330px;
+    height: 170px;
+    position: absolute;
+    top: 10px;
+    bottom: 0;
+    left: 90px;
+    right:100px;
+    text-align: center;
+}
+.star{
+    font-size: 3rem;
+    color: rgba(4, 196, 196, 0.87);
+    background-color: unset;
+    border: none;
+}
+.imagennl{
+    height:30px;
+    width: 100%;
+}
+.titulo{
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.margen_tabla{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 220px;
+    margin-bottom: 20px;
+}
+/**
+ de aqui para abajo css de patiño
+ */
+.a{
+    background-color: rgb(166, 233, 229);
+}
+
+.cabecera{
+    text-align: center;
+    border: 1px solid black;
+    background-color: turquoise ;
+    height: 100px;
+}
+
+a{
+    font-family: cursive;
+
+}
+h1{
+    text-align: center;
+}
+
+.posisonxd{
+    position: relative;
+    top: -70%;
+    left: 30%;
+    
+}
+.pie{
+    position: relative;
+    margin-top: -30%;
+    text-align: left;
+    border: 1px solid black;
+    background-color: turquoise ;
+    height: 100px;
+}  
+.decorar{
+    font-size: 15px;
+    color: black;
+    font-family: cursive;
+
+}
+.color{
+    color: blueviolet;
+    font-family: cursive;
+}
+
+.v-line{
+    border-left:  thick solid #000;
+    height: 86.4%;
+    left: 30%;
+    position: absolute;
+   }
+.o{
+    position: relative;
+    top: 80%;
+    right: 35%;
+    border: 2px solid black;
+    width: 30%; 
+}
+.mensaje{
+    position: absolute;
+    top: 91%;
+    left: 10%;
+    
+}
+.v{
+    position: relative;
+    top: 85%;
+    border: 2px solid black;
+    width: 100%;
+}
+
+.active.item{
+    position: absolute;
+    left: 60%;
+}
+/**La clase posicion es de el chat, (titulo "mis contactos")*/
+.posicion{
+    position: absolute;
+    left:30%;
+    top: 10%;
+    font-size: 25px;
+}
+.posicion1{
+    position: absolute;
+    left:40%;
+    width: 140px;
+    height: 120px;
+}
+.ui.container{
+    position: absolute;
+    top: 30% ;
+    left: 33%;
+    height: 100px;
+    
+} 
+/**
+Las 3 clases que estan abajo son del reporte.html
+ */
+.tmñ_img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 200px;
+    top: 50px;
+}
+.tamalet{
+    width: 900px;
+    height: 200px;
+}
+.tmñ_letr{
+    position: relative;
+    left: 300px;
+    top: 0px;
+    font-size: 30px;
+}
+.cajaaa{
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid #000000;
+    font-size:15px; 
+    text-align: center;   
+}
+.caja11{
+    position: absolute;
+    top: 200px;;
+    bottom: 0;
+    left: 310px;
+    right:100px;
+    width: 100px;
+    height: 10px;
+}
+.caja22{
+    position: absolute;
+    top: 200px;;
+    bottom: 0;
+    left: 700px;
+    right:100px;
+    width: 100px;
+    height: 30px;
+}
+.caja33{
+    position: absolute;
+    top: 170px;;
+    bottom: 0;
+    left: 700px;
+}
+.caja44{
+    position: absolute;
+    top: 300px;;
+    bottom: 0;
+    left: 700px;
+    right:100px;
+    width: 10px;
+    height: 30px;
+}
+.caja55{
+    position: absolute;
+    top: 170px;;
+    bottom: 0;
+}
+.margeenn1{
+    margin-top: 13%;
+    margin-left: 17%;
+    width: 480px;
+    height: 70px;
+}
+.margeenn2{
+    margin-top: 0px;
+    margin-left: 17%;
+    width: 480px;
+    height: 70px;
+}
+.margeenn3{
+    margin-top: 0px;
+    margin-left: 17%;
+    width: 480px;
+    height: 70px;
+}
+.margeenn4{
+    margin-top: 0px;
+    margin-left: 17%;
+    width: 480px;
+    height: 70px;
+}
+.margeenn5{
+    margin-top: 0px;
+    margin-left: 17%;
+    width: 480px;
+    height: 70px;
+}
+.iframee9{
+   position: absolute;
+   top: 5px;
+   margin-left: 420px;
+   height: 500px;
+   width: 950px;
+}
+/**
+Estas dos clases son de las paginas contactos 1, 2, 3
+*/
+.boton_retroceder{
+    text-align: center;
+    position: absolute;
+    top: 85px;
+    left: 800px;
+}
+.titulo_contacto{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    left: 406px;
+    font-size: 20px;
+}
+.Linea_menu{
+    border: 1px solid black;
+    position: relative;
+    top: 6px;
+}
+.letra_contactos{
+    position: absolute;
+    left: 390px;
+    margin-top: 24px;
+}
+.submenu{
+    display: none;
+}
+.submenu li a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+.menu li:hover .submenu{
+    display: block;
+}
+.tamaño_reporte{
+    width: 100px;
+    height: 10px;
+}
+
+/* estilos del input que permiten al  usuario ver una mejor interfaz */
+.mensaje2{
+    font-family: cursive;
+    font-size:15px;
+    
+
+    position: absolute;
+    top: 60%;
+    left: 6%;
+    text-align: center;
+    outline: none;
+    background-color: rgb(213, 248, 248);
+    border-radius: 29px;
+}
+.hand.point.left.outline.icon{
+    position: absolute;
+    top: 60%;
+    left: 21%;
+    border: 0;
+}
+
+/* estilos modal reporte */
+.modal-body{
+    text-align: center;
+}
+
+.color_daniela{
+    position: relative;
+    right: 15px;
+    font-family: cursive;
+}
+.color_imga{
+    position: relative;
+    left: 15px;
+}
+.color_pregunta{
+        color: rgba(4, 196, 196, 0.87);
+}
+.problem{
+    border-radius: 19px;
+    width: 100%;
+    height: 60px;
+}
+.header{
+    color:  rgb(254, 85, 168);
+}
+.header:hover{
+    color: rgb(254, 85, 168);
+}
+.header:focus{
+    color: rgba(4, 196, 196, 0.87);
+    
+}
+
+
+/* estilos del boton contrato , reporte  y calificaciòn*/
+.color_contrato{
+    color: rgb(254, 85, 168);
+}
+.color_contrato:hover{
+    color: rgb(221, 0, 107);
+}
+
+.color_reporte{
+    color: rgb(254, 85, 168);
+
+}
+.color_reporte:hover{
+    color: rgb(221, 0, 107);
+}
+
+.color_calificar{
+    color: rgb(254, 85, 168);
+}
+.color_calificar:hover{
+    color: rgb(221, 0, 107);
+
+}
+
+/* estilos titulo menu mytour 13 */
+
+.tit{
+    
+    font-family: 'Rubik Bubbles', cursive;
+    
+    
+}
+#estiloh1{
+    color: #fff; 
+    font-size: 45px; 
+    position: relative;
+    left: 15%;
+}
+
+/* estilos imagenes th*/
+.color_img_th{
+    border-radius: 60px;
+    border: none;
+}
+.color_img_th:hover{
+    box-shadow: 0 0 40px rgb(254, 85, 168);
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mende+Kikakui&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos_admin.css">
+    <link rel="stylesheet" href="css/semantic.min.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+</head>
+<body style="background-color: #FFF ; cursor: pointer  ;"> 
+    <!-- lor hr son las lienas que usamos para marcar unar margen en el aplicativo -->
+      <!-- v-line es la line vertical que la encontramos en estilos_admin en forma oculta -->
+      <div class="v-line">
+      </div>
+      
+      <!-- la clase O es la line vertical que la encontramos en estilos_admin en forma oculta -->
+      <hr class="o">
+      
+      <!-- Subir archivo "..." -->
+      <div class="posicion_contenedor">
+        <div id="tooltip_container">
+          <p>
+          
+            <p class="tooltip-box">
+              ...
+              <span class="tooltip-info">
+                Subir archivo
+              </span>
+            </p>
+            
+          </p>        
+        </div>
+      </div>
+      <!-- input file "boton" -->
+      <button class="contenedor-btn_enviar">
+   
+          <img src="img/forico.png" alt="Subir archivo" width="25px" height="25px" style="border-radius: 90px; text-align: center;">
+          <label for="btn_enviar"></label> 
+          <input  type="file" name="" id="btn_enviar" title="Subir Archivo"  onchange="return Exten()" >
+      </button>
+      
+      <h3 class="pos_titulo1" style="font-family: 'Rubik Bubbles', cursive;">Chat Guía</h3>
+      <!-- LA CLASE MENSAJE LA USAMOS DENTRO DE ESTILOS_ADMIN PARA ACOMODAR EL INPUT Y DARLE ESTILOS COMO EL REDONDEADO -->
+      <input type="text" class="mensaje" placeholder="!!Mensaje">
+      <hr class="v">
+      <img class="posicion1" src="img/matthew.png" alt="">
+      <h1 class="posicion"> Halfonso PocoPelo <i class="share teal icon"></i></h1>
+      <div class="ui container">
+        <!-- TABLA QUE USAMOS PARA GUARDAR INFORMACION Y QUE SEA MAS VISTOSA -->
+        <table class="ui very basic collapsing celled table" style="width: 50%;">
+          <thead>
+            <tr>
+              <th> DESCRIPCIÓN DEL PROBLEMA <i class="archive icon"></i></th>
+            </tr>
+          </thead>
+          <td>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ea laborum molestias assumenda! Saepe tempore, quasi aperiam placeat praesentium ipsum doloremque dolorem quos optio dolore id illum iure dignissimos quam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem praesentium blanditiis iusto tenetur, architecto impedit possimus eius ducimus quod necessitatibus iure fugit! Aut assumenda nam sit fugit quod tempora ipsam?
+          </td>
+        </table><br><br><br><br>
+        <!-- LA CLASE POS LA USAMOS DENTRO DE ESTILOS_ADMIN PARA ACOMODAR LA POSICION DE LOS 3 BOTONES -->
+        <div class="pos">
+          <button class="ui primary inverted button">Aceptar Reporte</button>
+          <button class="ui red inverted button">Rechazar Reporte</button>
+          <button class="ui green inverted button">Contatar al reportado</button>
+        </div>
+        <!-- LA CLASE POS2 LA USAMOS DENTRO DE ESTILOS_ADMIN  PARA ACOMODAR EN LA MISMA POSICION DE LOS ICONOS -->
+        <div class="pos2">
+          <div class="pos3">
+            <!-- Subir archivo "..." -->
+            <div class="posicion_contenedor">
+              <div id="tooltip_container">
+                <p>
+                
+                  <p class="tooltip-box">
+                    ...
+                    <span class="tooltip-info">
+                      Subir archivo
+                    </span>
+                  </p>
+                  
+                </p>        
+              </div>
+            </div>
+          </div>
+          <button class="contenedor-btn_enviar">
+              <img src="img/forico.png" alt="Subir archivo" width="25px" height="25px" style="border-radius: 90px; text-align: center;">
+              <label for="btn_enviar"></label> 
+              <input  type="file" name="" id="btn_enviar"  onchange="return Exten()" >
+          </button>
+        </div>
+        <!-- titulo  turista -->
+        <h3 class="pos_titulo" style="font-family: 'Rubik Bubbles', cursive;">Chat turista</h3>
+        <!-- LA CLASE MENSAJE LA USAMOS DENTRO DE ESTILOS_ADMIN PARA ACOMODAR EL INPUT Y DARLE ESTILOS COMO EL REDONDEADO -->
+        <input type="text" class="mensaje2" placeholder="!!Mensaje">
+      </div>
+      <script>
+        $('.ui.dropdown').dropdown();
+      </script>
+
+      <!-- script que permite extraer la informacion de js -->
+      <script src="js/valida.js"></script>
+       <!-- script que permite extraer la informacion de js -->
+      <script src="js/mostrartext.js"></script>
+      
+</body>
+</html>

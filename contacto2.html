@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/semantic.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos_index.css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/semantic.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<style>
+    nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 90px;
+    padding-left: -9%;
+    }
+    ul li{
+    display: inline-block;
+    padding: 0% 20px;
+    }
+    a{
+      text-decoration: none;
+      font-size: 16px;
+    }
+    a:hover{
+      color: rgb(0, 110, 245);
+    }
+  </style>
+  <header>
+    <nav class="nave">
+      <ul class="menu">
+        <li><img src="img/Menu_icon_icon-icons.com_71858.png" width="39px" height="39px">
+            <ul class="submenu">
+              <li><a class="item" data-bs-toggle="modal" data-bs-target="#contrato"><b class="color_contrato">Ver Contrato</b></a></li>
+              <br> 
+              <li><a class="item" data-bs-toggle="modal" data-bs-target="#reportar"><b class="color_reporte">Reportar</b></a></li>
+              <br> 
+              <li><a class="item" data-bs-toggle="modal" data-bs-target="#calificar"><b class="color_calificar">Calificar</b></a></li>
+            </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+<body style="background-color: #fff">
+    <b class="titulo_contacto"> Juliana Pacheco Montoya</b>
+    <img src="img/im6.jpg" width="120px" height="120px">
+
+<form class="boton_retroceder" action="tablacontactos.html">
+    <button style="background-color: rgb(225, 230, 250)" class="ui icon button">
+        <img src="img/retroceder.png" width="29px" height="30px">
+    </button>
+</form>
+<div class="modal fade" id="contrato" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel" style="color: rgba(4, 196, 196, 0.87); text-align: center;"><b>Bienvenido, aqui se podra visualizar el contrato con el turista</b></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <h1>Contrato</h1>
+          </div>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+</div>
+<div class="modal fade" id="reportar" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel" style="color: rgba(4, 196, 196, 0.87); text-align: center;"><b>Bienvenido, aqui se podran reportar a los turistas</b></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+             <h3 class="color_daniela">Daniela Frutiño</h3>  
+                <div class="image content">
+                    <div class="ui small image">
+                        <img src="img/lena.png" width="100px" height="100px">
+                    </div>
+                    <div">
+                        <h2 class="color_pregunta"><b>¿Cuentanos que paso...?</b></h2>
+                        <input class="problem" type="text" placeholder="Descripcion del prblema..">
+                    </div>
+                </div>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+</div>
+<div class="modal fade" id="calificar" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel" style="color:rgba(4, 196, 196, 0.87); text-align: center;"><b>Bienvenido, aqui se podran calificar a los turistas</b></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="container">
+                <div class="star_rating">
+                    <p><b>¿Que calificación le das al turista?</b></p>
+                    <button class="star">&#9734;</button>
+                    <button class="star">&#9734;</button>
+                    <button class="star">&#9734;</button>
+                    <button class="star">&#9734;</button>
+                    <button class="star">&#9734;</button>
+                    <p class="current_rating"> <b>0 de 5</b></p>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+</div>
+  <script>
+    $('.ui.dropdown').dropdown();
+</script>
+<script>
+      $('.ui.dropdown').dropdown();
+      const myModal = document.getElementById('myModal')
+      const myInput = document.getElementById('myInput')
+      myModal.addEventListener('shown.bs.modal', () => {
+      myInput.focus()
+      })
+</script>
+<script>
+        const allStars = document.querySelectorAll('.star');
+        let current_rating = document.querySelector('.current_rating');
+        allStars.forEach( (star,i) => {
+            star.onclick = function(){
+                let current_star_level = i + 1;
+                current_rating.innerText = `${current_star_level} de 5`;
+
+                allStars.forEach( (star,j) =>{
+                    if(current_star_level >= j + 1){
+                        star.innerHTML = '&#9733';
+                    }else{
+                        star.innerHTML = '&#9734';
+                    }
+                })
+
+            }
+        })
+    </script>
+</body>
+</html>
